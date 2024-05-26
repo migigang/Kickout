@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e360d7589290654488f06c2f5f87942e, type: 3}
+  m_Name: player
+  m_EditorClassIdentifier: 
+  Name: players
+  stats:
+    health: 6
+    NumOfHealths: 6
+    speed: 8
+    startDashTime: 1.5
+    dashVelocity: 20
+  upgrades:
+  - {fileID: 11400000, guid: 288e44a6fe86f3a439e08f7be6fe8c10, type: 2}
+  - {fileID: 11400000, guid: dbfb7adb1b180d84ba9c22e5eeb18f6e, type: 2}
+  - {fileID: 11400000, guid: d2d6797d08c302c41978f73834b3b05b, type: 2}
+  - {fileID: 11400000, guid: f07dc00dee0df4f4aa3422f2939a8d3c, type: 2}

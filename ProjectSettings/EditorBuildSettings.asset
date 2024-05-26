@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/mainMenu.unity
+    guid: 52ea3e9d99cd2aa4994821d367f313f7
+  - enabled: 1
+    path: Assets/Scenes/cutScene.unity
+    guid: 0c21ee8783f23334588b4556b266dc81
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 7a36d77d7b47da04ab4aa61e8e288c43
+  - enabled: 1
+    path: Assets/Scenes/lobby.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Scenes/proceduralMapDungeon.unity
+    guid: 72b28564b4b19b54e9d53616a44b088c
+  - enabled: 1
+    path: Assets/Scenes/Dungeontes.unity
+    guid: 8095d4c97ceb7e74296066b143803075
+  - enabled: 1
+    path: Assets/Scenes/cutSceneArenaBoss.unity
+    guid: 976a4faf569f06c4b8a7fcccb3c7358a
+  - enabled: 1
+    path: Assets/Scenes/arenaBoss.unity
+    guid: f37d888edc40aaa49be22a066367edd7
+  - enabled: 1
+    path: Assets/Scenes/cutSceneWIn.unity
+    guid: 8f42b57e7b94c6a449d1759775147173
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 170907983e89d2643ad24c9c6a863d0d, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 6122ede45cbedf44db1c65cde3a94b47, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 91b90e1fe4242bb429a4774b63ca7c3e, type: 2}

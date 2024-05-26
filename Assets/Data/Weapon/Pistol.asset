@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a43b4282f4ac5642b1ecd9fc68e1efe, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  Name: pistol
+  stats:
+    Damage: 30
+    timeBetweenShots: 0.45
+    maxClipSize: 5
+    reloadTime: 1.8
+  weaponBasePrefabs: {fileID: 2284494177042755645, guid: 45f79fd74b2210d429e3d1705c46b8f0, type: 3}
+  upgrades:
+  - {fileID: 11400000, guid: 73a369c9301974f40bb06f7ac49119bb, type: 2}
+  - {fileID: 11400000, guid: 14833b888f6f319468ec1189d7fd1f11, type: 2}
+  - {fileID: 11400000, guid: fefc27016cad4de41b2d15498e975e89, type: 2}
+  - {fileID: 11400000, guid: 92c22ab4b03d4dd41bf848eada09527b, type: 2}
